@@ -62,3 +62,10 @@ echo
 echo "# Show the Composer version"
 echo
 composer -V
+
+echo
+echo "# Installing NVM v0.39.5"
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
+
+echo
+echo "Close and reopen the terminal for the changes to have effect."

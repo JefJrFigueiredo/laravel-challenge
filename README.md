@@ -5,9 +5,9 @@
 
 If you need, use the following command in the terminal to install PHP 8.3 and Composer in Ubuntu 22.04
 ~~~shell
-wget https://raw.githubusercontent.com/JefJrFigueiredo/laravel-challenge/main/install-php-8.3-and-composer.sh && \
-  bash install-php-8.3-and-composer.sh && \
-  rm install-php-8.3-and-composer.sh
+wget https://raw.githubusercontent.com/JefJrFigueiredo/laravel-challenge/main/install-php-composer-nvm.sh && \
+  bash install-php-composer-nvm.sh && \
+  rm install-php-composer-nvm.sh
 ~~~
 
 ## Option 1: Clone this Laravel Project
