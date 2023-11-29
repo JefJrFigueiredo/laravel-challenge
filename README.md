@@ -4,11 +4,12 @@
 - [Composer](https://getcomposer.org/download/)
 
 ## Setup
-- Open the Terminal and paste this commands to clone this repository, enter the directory, make the .env file, generate app_key and install dependencies
+- Open the Terminal and paste this commands to clone this repository, enter the directory, make the .env file, generate app_key, install dependencies and run the project
 ~~~shell
 git clone git@github.com:JefJrFigueiredo/laravel-challenge.git && \
     cd laravel-challenge && \
     php -r "file_exists('.env') || copy('.env.example', '.env');" && \
     php artisan key:generate && \
-    composer install
+    composer install && \
+    php artisan serve
 ~~~
