@@ -65,6 +65,7 @@ composer -V
 
 echo
 echo "# Installing NVM v0.39.5"
+echo "Source: https://github.com/nvm-sh/nvm#installing-and-updating"
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
 
 echo
