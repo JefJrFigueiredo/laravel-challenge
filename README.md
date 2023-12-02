@@ -9,6 +9,11 @@ wget https://raw.githubusercontent.com/JefJrFigueiredo/laravel-challenge/main/01
     bash 01-install-php-composer-nvm.sh && \
     rm 01-install-php-composer-nvm.sh
 ~~~
+Use the following command in the terminal to install the latest LTS version of Node
+~~~shell
+nvm install --lts && \
+    node --version
+~~~
 
 ## Option 1: Clone this Laravel Project
 - Open the Terminal and paste this commands to clone this repository, enter the directory, install dependencies, make the .env file, generate app_key and run the project
