@@ -11,8 +11,7 @@ wget https://raw.githubusercontent.com/JefJrFigueiredo/laravel-challenge/main/01
 ~~~
 Use the following command in the terminal to install the latest LTS version of Node
 ~~~shell
-nvm install --lts && \
-    node --version
+nvm install --lts
 ~~~
 
 ## Option 1: Clone this Laravel Project
