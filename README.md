@@ -3,11 +3,11 @@
 ## Requirements
 - PHP and Composer
 
-If you need, use the following command in the terminal to install PHP 8.3 and Composer in Ubuntu 22.04
+If you need, use the following command in the terminal to install PHP 8.3, Composer, Laravel, Symfony and NVM in Ubuntu 22.04
 ~~~shell
-wget https://raw.githubusercontent.com/JefJrFigueiredo/laravel-challenge/main/01-install-php-composer-nvm.sh && \
-    bash 01-install-php-composer-nvm.sh && \
-    rm 01-install-php-composer-nvm.sh
+wget https://raw.githubusercontent.com/JefJrFigueiredo/sh-for-dev-env/main/install-laravel-symfony.sh && \
+  bash install-laravel-symfony.sh && \
+  rm install-laravel-symfony.sh*
 ~~~
 Use the following command in the terminal to install the latest LTS version of Node
 ~~~shell
