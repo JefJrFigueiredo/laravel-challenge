@@ -1,4 +1,4 @@
-# Example project using Laravel 10
+# Example project using Laravel 11
 
 ## Requirements
 - PHP and Composer
