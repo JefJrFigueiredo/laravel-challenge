@@ -34,7 +34,7 @@ npm install && \
 If you want to create a new Laravel project, change the "project_name" and run the commands in terminal:
 
 ~~~shell
-composer create-project laravel/laravel project_name && \
-      cd project_name && \
-      php artisan serve
+composer create-project laravel/laravel^11.0 example-app && \           
+    cd example-app && \
+    php artisan serve
 ~~~
